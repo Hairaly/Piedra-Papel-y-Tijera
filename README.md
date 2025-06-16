@@ -20,7 +20,7 @@ Este es un proyecto simple de escritorio desarrollado en **Visual Basic .NET** u
 
 ```
 Piedra-Papel-y-Tijera
-├── Form1.vb
+├── Piedra_Papel y Tijera.vb
 └── README.md
 ```
 
@@ -36,26 +36,59 @@ Piedra-Papel-y-Tijera
 ## 🧠 Lógica del juego (resumen)
 
 ```vb
-Dim opciones() As String = {"Piedra", "Papel", "Tijera"}
-Dim eleccionUsuario As String = "Piedra" ' ejemplo
-Dim eleccionCPU As String = opciones(Int(Rnd() * 3))
+Public Class Form1
 
-If eleccionUsuario = eleccionCPU Then
-    MsgBox("¡Empate!")
-ElseIf (eleccionUsuario = "Piedra" And eleccionCPU = "Tijera") Or
-       (eleccionUsuario = "Papel" And eleccionCPU = "Piedra") Or
-       (eleccionUsuario = "Tijera" And eleccionCPU = "Papel") Then
-    MsgBox("¡Ganaste!")
-Else
-    MsgBox("Perdiste.")
-End If
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim usuario As Integer = 0
+        Dim sistema As Integer = 0
+        Dim Rnd As New Random()
+
+    End Sub
+
+    Private Sub RadioButton_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged, RadioButton2.CheckedChanged, RadioButton3.CheckedChanged
+
+        If RadioButton1.Checked Then
+            TextBox1.Text = "✊"
+        ElseIf RadioButton2.Checked Then
+            TextBox1.Text = "🖐️"
+        ElseIf RadioButton3.Checked Then
+            TextBox1.Text = "✌️"
+        End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        Dim Rnd As New Random()
+        Dim sistema As Integer = Rnd.Next(1, 4)
+
+        Select Case sistema
+            Case 1
+                TextBox2.Text = "✊"
+            Case 2
+                TextBox2.Text = "🖐️"
+            Case 3
+                TextBox2.Text = "✌️"
+        End Select
+
+        Dim resultado As String = ""
+        If TextBox1.Text = TextBox2.Text Then
+            resultado = "Empatamos"
+        ElseIf (TextBox1.Text = "✊" And TextBox2.Text = "✌️") Or
+               (TextBox1.Text = "🖐️" And TextBox2.Text = "✊") Or
+               (TextBox1.Text = "✌️" And TextBox2.Text = "🖐️") Then
+            resultado = "Ganaste, Felicidades"
+        Else
+            resultado = "Perdiste"
+        End If
+        MessageBox.Show(resultado, "Resultado")
+    End Sub
+End Class
+
 ```
 
 ## 📸 Capturas de pantalla (opcional)
 
 _Agrega imágenes aquí del formulario y del juego funcionando._
 
-## 📄 Licencia
 
-Este proyecto está bajo la licencia MIT. Puedes usarlo libremente para aprender o mejorar.
 
