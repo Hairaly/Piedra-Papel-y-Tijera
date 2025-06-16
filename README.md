@@ -7,8 +7,7 @@ Este es un proyecto simple de escritorio desarrollado en **Visual Basic .NET** u
 - Interfaz gráfica con botones para elegir piedra, papel o tijera.
 - Resultado aleatorio de la computadora.
 - Determinación automática del ganador.
-- Contador de victorias, derrotas y empates.
-- Mensajes con imágenes o íconos opcionales.
+
 
 ## 💻 Requisitos
 
@@ -33,7 +32,7 @@ Piedra-Papel-y-Tijera
 2. Abre el archivo `.sln` en Visual Studio.
 3. Presiona **F5** o haz clic en **Iniciar** para compilar y ejecutar.
 
-## 🧠 Lógica del juego (resumen)
+## 🧠 Lógica del juego 
 
 ```vb
 Public Class Form1
@@ -86,9 +85,10 @@ End Class
 
 ```
 
-## 📸 Capturas de pantalla (opcional)
+## 📸 Capturas de pantalla 
 
-_Agrega imágenes aquí del formulario y del juego funcionando._
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/0fced307-c2c4-4c51-8a39-679cb04ed081" />
+
 
 
 
