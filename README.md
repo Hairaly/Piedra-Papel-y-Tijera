@@ -19,11 +19,8 @@ Este es un proyecto simple de escritorio desarrollado en **Visual Basic .NET** u
 ## 📁 Estructura del proyecto
 
 ```
-PiedraPapelTijeraVB/
-├── PiedraPapelTijeraVB.sln
+Piedra-Papel-y-Tijera
 ├── Form1.vb
-├── Form1.Designer.vb
-├── Recursos (opcional: imágenes)
 └── README.md
 ```
 
