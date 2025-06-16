@@ -28,7 +28,7 @@ Piedra-Papel-y-Tijera
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/PiedraPapelTijeraVB.git
+   git clone https://github.com/Hairaly/Piedra-Papel-y-Tijera.git
    ```
 2. Abre el archivo `.sln` en Visual Studio.
 3. Presiona **F5** o haz clic en **Iniciar** para compilar y ejecutar.
