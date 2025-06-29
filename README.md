@@ -1,6 +1,7 @@
 # 🪨 Piedra, Papel o Tijera - Juego en Visual Basic
+Este es un proyecto simple de escritorio desarrollado en Visual Basic .NET utilizando Windows Forms en Visual Studio. El programa simula el clásico juego de Piedra, Papel o Tijera, permitiendo al usuario competir contra la computadora de forma interactiva.
 
-Este es un proyecto simple de escritorio desarrollado en **Visual Basic .NET** usando **Windows Forms en Visual Studio**. Simula el clásico juego de Piedra, Papel o Tijera entre el usuario y la computadora.
+Al iniciar el juego, el usuario puede seleccionar una de las tres opciones (piedra, papel o tijera) mediante botones gráficos, mientras que la computadora elige aleatoriamente su jugada. El sistema evalúa ambas elecciones y muestra el resultado de la ronda (ganas, pierdes o empatas), acompañado de mensajes visuales y contadores de puntuación.
 
 ## 🧩 Características
 
