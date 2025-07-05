@@ -5,7 +5,7 @@ Al iniciar el juego, el usuario puede seleccionar una de las tres opciones (pied
 
 ## 🧩 Características
 
-- Interfaz gráfica con botones para elegir piedra, papel o tijera.
+- Interfaz gráfica con botones para elegir piedra, papel o tijera. 
 - Resultado aleatorio de la computadora.
 - Determinación automática del ganador.
 
